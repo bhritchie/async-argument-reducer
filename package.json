@@ -1,6 +1,6 @@
 {
   "name": "async-argument-reducer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Asynchronously aggregate arguments across calls to a function",
   "main": "lib/async-argument-reducer.js",
   "scripts": {

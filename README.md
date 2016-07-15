@@ -4,7 +4,7 @@ This package allows you to wrap a function so that it can be called several time
 
 The wrapper function returns a promise which resolves to the result of invoking your callback with the aggregated set of arguments. Each set of aggregated calls gets its own promise.
 
-[![Build Status](https://travis-ci.org/bhritchie/async-argument-reducer.svg?branch=master)](https://travis-ci.org/bhritchie/async-argument-reducer)
+[![Build Status](https://travis-ci.org/bhritchie/async-argument-reducer.svg?branch=master)](https://travis-ci.org/bhritchie/async-argument-reducer) [![npm](https://img.shields.io/npm/dt/async-argument-reducer.svg)](https://www.npmjs.com/package/async-argument-reducer)
 
 ## Installation
 

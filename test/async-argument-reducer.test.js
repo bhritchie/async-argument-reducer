@@ -1,21 +1,12 @@
 'use strict';
 
-// needs to return a promise that resolves to whatever the callback returns
-
-
 const chai = require('chai');
 const should = chai.should();
 const expect = chai.expect;
-// const chaiAsPromised = require('chai-as-promised');
 const chaiCounting = require('chai-counting');
 const sinon = require('sinon');
-require('sinon-as-promised');
-// const sinonChai = require('sinon-chai');
-
-
-// chai.use(sinonChai);
-// chai.use(chaiAsPromised);
 chai.use(chaiCounting);
+require('sinon-as-promised');
 
 const wait = require('../lib/async-argument-reducer')
 
